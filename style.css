@@ -20,7 +20,7 @@ body{
     height:28px;
     position:absolute;
 }
-.big_enemy{
+.bigEnemy{
     background: url('recursos/plane.png');
     width:40px;
     height:35px;
