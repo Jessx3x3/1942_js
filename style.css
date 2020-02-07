@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+}
+#container{
+    background: url('recursos/background.jpg');
+    width:900px;
+    height:550px;
+}
+#hero{
+    background: url('recursos/1942.gif');
+    background-position: -85px -180px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.enemy1{
+    background: url('recursos/1942.gif');
+    background-position: -30px -10px;
+    width:28px;
+    height:28px;
+    position:absolute;
+}
+.big_enemy{
+    background: url('recursos/plane.png');
+    width:40px;
+    height:35px;
+    position:absolute;
+}
+.bullet{
+    background: url('recursos/1942.gif');
+    background-position: -185px -400px;
+    width:18px;
+    height:18px;
+    position:absolute;
+}
+#score{
+    position:absolute;
+    border:10px solid rgb(2, 5, 167);
+    border-radius: 10px;
+    top:20px;
+    left:800px;
+    background-color:rgba(19, 59, 241, 0.699);
+    color: wheat;
+    padding:10px;
+    font-size:30px;
+    font-family: Arial;	
+}
